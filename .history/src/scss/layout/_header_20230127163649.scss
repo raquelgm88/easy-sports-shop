@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  /*opacity: 0;*/
+  .container-menu{
+    width: 37px;
+    height: 34px;
+    background-color: #f26002;
+    .menu{
+      display: flex;
+      align-items: center;
+    }
+  }
+}

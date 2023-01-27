@@ -1,0 +1,29 @@
+.hero {
+    display: flex;
+    background-image: url("../images/cover.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        margin-left: 5px;
+        margin-right: 5px;
+
+        .hero-title {
+            font-size: 30px;
+            font-family: 'Roboto Slab', sans-serif;
+            font-weight: bold;
+            line-height: 50px;
+            color: white;
+        }
+    
+    }
+
+}
