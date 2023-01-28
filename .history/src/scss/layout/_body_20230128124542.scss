@@ -1,0 +1,24 @@
+.conect-yourself {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 20px 0px 20px;
+
+    .span {
+        font-family: $font-main;
+        font-size: 14px;
+        color: $color-one;
+    }
+
+    .conect-title {
+        font-family: $font-title;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    .conect-text {
+        font-family: $font-main;
+        font-size: 18px;
+        color: $color-four;
+        line-height: 30px;
+    }
+}

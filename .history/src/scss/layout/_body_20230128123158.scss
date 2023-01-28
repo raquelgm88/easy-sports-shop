@@ -1,0 +1,11 @@
+.conect-yourself {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+
+    .span {
+        font-family: $font-main;
+        font-size: 14px;
+        color: $color-one;
+    }
+}
