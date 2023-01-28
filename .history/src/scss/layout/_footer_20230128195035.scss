@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $color-four;
+
+    .container-arrow2 {
+        width: 45px;
+        height: 45px;
+        background-color: $color-two;
+        border-radius: 50%;
+        translate: 0 -24px;
+    }
+}
