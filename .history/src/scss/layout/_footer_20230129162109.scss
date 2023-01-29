@@ -27,7 +27,6 @@
             font-size: 16px;
             line-height: 30px;
             text-align: center;
-            padding-inline-start: 0px;
 
             .link {
                 text-decoration: none;
@@ -39,29 +38,8 @@
     .container-copy {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         font-family: $font-main;
         font-size: 14px;
         color: $color-two;
-
-        .copy {
-            margin-bottom: auto;
-
-
-
-        }
-
-        .love-run {
-            
-           
-
-
-            .span {
-                color: $color-one;
-            }
-        }
-
-        
     }
 }

@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 465px;
+    width: 100vw;
+    background-color: $color-four;
+
+    .container-arrow2 {
+        width: 45px;
+        height: 45px;
+        background-color: $color-two;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        translate: 0 -25px;
+    }
+
+    .footer-menu {
+        
+    }
+
+    .nav{
+        font-family: $font-main;
+        font-size: 16px;
+        color: $color-two;
+        
+        .ul {
+            list-style-type: none;
+
+            .link {
+            text-decoration: none;
+            }
+        }
+    }
+}

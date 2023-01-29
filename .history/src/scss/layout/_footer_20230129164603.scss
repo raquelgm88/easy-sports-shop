@@ -27,7 +27,6 @@
             font-size: 16px;
             line-height: 30px;
             text-align: center;
-            padding-inline-start: 0px;
 
             .link {
                 text-decoration: none;
@@ -41,14 +40,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        align-content: center;
+        height: 60px;
         font-family: $font-main;
         font-size: 14px;
         color: $color-two;
 
         .copy {
-            margin-bottom: auto;
-
-
+            
 
         }
 

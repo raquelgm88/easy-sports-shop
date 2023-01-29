@@ -27,7 +27,6 @@
             font-size: 16px;
             line-height: 30px;
             text-align: center;
-            padding-inline-start: 0px;
 
             .link {
                 text-decoration: none;
@@ -44,24 +43,10 @@
         font-family: $font-main;
         font-size: 14px;
         color: $color-two;
+        line-height: 30px;
 
-        .copy {
-            margin-bottom: auto;
-
-
-
+        .span {
+            color: $color-one;
         }
-
-        .love-run {
-            
-           
-
-
-            .span {
-                color: $color-one;
-            }
-        }
-
-        
     }
 }
