@@ -15,16 +15,6 @@
     align-items: center;
     justify-content: center;
 
-    @media all and (min-width: 768px) {
-      width: 44px;
-      height: 44px;
-    } 
-
-    @media all and (min-width: 1200px) {
-      width: 47px;
-      height: 47px;
-    }
-
     .menu {
       display: block;
       margin: auto;
