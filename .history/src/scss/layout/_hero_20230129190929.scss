@@ -17,10 +17,6 @@
         margin-right: 5px;
         padding-bottom: 33px;
 
-        @media all and (min-width: 768px) {
-            padding-bottom: 45px;
-        }
-
         .hero-title {
             font-size: 30px;
             font-family: $font-title;
@@ -32,6 +28,7 @@
             margin-bottom: 0px;
 
             @media all and (min-width: 768px) {
+                
                 font-size: 75px;
                 line-height: 100px;
                 margin-bottom: 10px;
@@ -41,6 +38,7 @@
                 font-size: 100px;
                 line-height: 132px;
                 width: 954px;
+                
             }
         }
 
@@ -78,33 +76,11 @@
             justify-content: center;
             align-items: center;
 
-            @media all and (min-width: 768px) {
-                width: 43px;
-                height: 43px;
-            }
-
-            @media all and (min-width: 1200px) {
-                width: 46px;
-                height: 46px;
-            }
-
             .arrow {
-                width: 18px;
-                height: 10px;
                 margin-top: 5px;
-
-                @media all and (min-width: 768px) {
-                    width: 20px;
-                    height: 12px;
-                    margin-top: 7px;
-                }
-
-                @media all and (min-width: 1200px) {
-                    width: 21px;
-                    height: 13px;
-                    margin-top: 8px;
-                }
             }
         }
+
     }
+
 }

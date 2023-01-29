@@ -8,11 +8,7 @@
     padding: 34px 12px 50px 30px;
 
     @media all and (min-width: 768px) {
-        padding: 37px 40px 50px 37px;
-    }
-
-    @media all and (min-width: 1200px) {
-        padding: 58px 136px 60px 275px;
+        padding: 37px 39px 50px 37px;
     }
 
     .span {
@@ -23,10 +19,6 @@
         @media all and (min-width: 768px) {
             font-size: 16px;
             
-        }
-
-        @media all and (min-width: 1200px) {
-            font-size: 16px;
         }
     }
 
@@ -40,10 +32,6 @@
         @media all and (min-width: 768px) {
             font-size: 32px;
         }
-
-        @media all and (min-width: 1200px) {
-            font-size: 32px;
-        }
     }
 
     .conect-text {
@@ -54,10 +42,6 @@
         margin-top: 7px;
 
         @media all and (min-width: 768px) {
-            font-size: 20px;
-        }
-
-        @media all and (min-width: 1200px) {
             font-size: 20px;
         }
     }
@@ -84,7 +68,7 @@
 
 .new-year {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 89px 83px 83px 83px 45px;
     row-gap: 45px;
     height: 624px;
@@ -93,40 +77,16 @@
     justify-items: center;
     align-items: center;
 
-    @media all and (min-width: 768px) {
-        height: 400px;
-    }
-
-    @media all and (min-width: 1200px) {
-        height: 420px;
-    }
-
     .new-year-title {
-        grid-column-start: 1;
-        grid-column-end: 4;
-        width: 200px;
+        width: 270px;
         font-family: $font-title;
-        font-size: 20px;
         font-weight: bold;
         line-height: 30px;
         text-align: center;
         margin-top: 50px;
-        
-    
-
-        @media all and (min-width: 768px) {
-            width: 450px;
-            font-size: 28px;
-        }
-
-        @media all and (min-width: 1200px) {
-            width: 730px;
-        }
     }
 
     .article {
-        grid-column-start: 1;
-        grid-column-end: 4;
         width: 180px;
         align-items: center;
         justify-items: center;
@@ -149,28 +109,20 @@
         }
     }
 
-    .start-now-container {
+    .start-now {
         display: flex;
-      
-        width: 100%;
-
-        .start-now {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 184px;
-            height: 45px;
-            background-color: $color-one;
-            border-radius: 22.5px;
-            text-decoration: none;
-            color: $color-two;
-            font-family: $font-main;
-            font-size: 20px;
-            font-weight: 500;
-        }
-
+        justify-content: center;
+        align-items: center;
+        width: 184px;
+        height: 45px;
+        background-color: $color-one;
+        border-radius: 22.5px;
+        text-decoration: none;
+        color: $color-two;
+        font-family: $font-main;
+        font-size: 20px;
+        font-weight: 500;
     }
-    
 
 }
 

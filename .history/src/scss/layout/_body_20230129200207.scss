@@ -103,7 +103,7 @@
 
     .new-year-title {
         grid-column-start: 1;
-        grid-column-end: 4;
+        grid-column-end: 3;
         width: 200px;
         font-family: $font-title;
         font-size: 20px;
@@ -125,8 +125,6 @@
     }
 
     .article {
-        grid-column-start: 1;
-        grid-column-end: 4;
         width: 180px;
         align-items: center;
         justify-items: center;
@@ -149,28 +147,20 @@
         }
     }
 
-    .start-now-container {
+    .start-now {
         display: flex;
-      
-        width: 100%;
-
-        .start-now {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 184px;
-            height: 45px;
-            background-color: $color-one;
-            border-radius: 22.5px;
-            text-decoration: none;
-            color: $color-two;
-            font-family: $font-main;
-            font-size: 20px;
-            font-weight: 500;
-        }
-
+        justify-content: center;
+        align-items: center;
+        width: 184px;
+        height: 45px;
+        background-color: $color-one;
+        border-radius: 22.5px;
+        text-decoration: none;
+        color: $color-two;
+        font-family: $font-main;
+        font-size: 20px;
+        font-weight: 500;
     }
-    
 
 }
 

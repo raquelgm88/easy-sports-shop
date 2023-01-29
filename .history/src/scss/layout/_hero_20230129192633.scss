@@ -86,6 +86,7 @@
             @media all and (min-width: 1200px) {
                 width: 46px;
                 height: 46px;
+                
             }
 
             .arrow {
@@ -97,14 +98,18 @@
                     width: 20px;
                     height: 12px;
                     margin-top: 7px;
+                    
                 }
 
                 @media all and (min-width: 1200px) {
                     width: 21px;
                     height: 13px;
                     margin-top: 8px;
+                    
                 }
             }
         }
+
     }
+
 }
