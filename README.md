@@ -1,124 +1,50 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+# EVALUACIÓN FINAL DEL MÓDULO 1 - PROMO SALAS
 
-# Adalab web starter kit
+Este proyecto es el resultado de todo lo aprendido en el módulo 1 del Bootcamp de Programación Web de Adalab. Un ejercicio propuesto para la evaluación de esta primera parte.
 
-Ahoy! Este es nuestro Starter Kit creado en **node y gulp**. ¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
+## REQUISITOS
 
-Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más. El Kit nos ayuda a trabajar más cómodamente, nos automatiza tareas.
+Para desarrollar este proyecto había que cumplir con una serie de criterios:
 
-En el Kit hay 3 tipos de ficheros y carpetas:
+1. El botón del menú (en la esquina superior izquierda) debe estar fijo en la parte superior de la pantalla y no debe desaparecer al hacer scroll. El icono de la hamburguesa debe ser un enlace a la página de Adalab.
 
-- Los ficheros que están sueltos en la raíz del repositorio, como gulpfile.js, package.json... Son la configuración del proyecto y no necesitamos modificarlos.
-- La carpeta `src/`: son los ficheros de nuestra página web, como HTML, CSS, JS...
-- Las carpetas `public/` y `docs/`, que son generadas automáticamente cuando arrancamos el proyecto. El Kit lee los ficheros que hay dentro de `src/`, los procesa y los genera dentro de `public/` y `docs/`.
+2. El primer módulo (hero - Hasta un 50% de descuento) debe estar maquetado con Flexbox y debe ocupar tanto como el alto de la ventana del navegador.
 
-## Guía de inicio rápido
+3. El segundo módulo (Conecta Contigo) se puede maquetar usando las propiedades de CSS que se deseen.
 
-> **NOTA:** Necesitas tener instalado [Node JS](https://nodejs.org/) para trabajar con este Starter Kit:
+4. En el tercer módulo (Año nuevo, movimientos nuevos) los tres elementos del listado deben estar maquetados con CSS Grid en todos los tamaños de pantalla en los que se necesite.
 
-### Pasos a seguir cada vez que queremos arrancar un proyecto desde cero:
+5. El cuarto módulo (footer) se debe maquetar usando flexbox. Todos los textos de la columna "ZAPATILLAS" y todos los textos de la columna "TWITTER" deben ser enlaces a la página de Adalab.
 
-1. **Crea tu propio repositorio.**
-1. Descarga este **Starter kit desde GitHub**.
-   - No recomendamos que clones este repo ya que no podrás añadir commits.
-1. **Copia todos los ficheros** de este Starter kit en la carpeta raíz de tu repositorio.
-   - Recuerda que debes copiar **también los ficheros ocultos**.
-   - Si has decidido clonar este repo, no debes copiar la carpeta `.git`. Si lo haces estarás machacando tu propio repositorio.
-1. **Abre una terminal** en la carpeta raíz de tu repositorio.
-1. **Instala las dependencias** locales ejecutando en la terminal el comando:
+Además, había que resolver varias interacciones. A parte de las propuestas, yo he hecho que los botones de "Comprar" y "Empezar ahora" funcionen como links a a página de Adalab.
 
-```bash
-npm install
-```
+1. El botón de flecha del primer módulo (el hero) debe enlazar a la sección "Año nuevo, movimientos nuevos".
 
-### Pasos para arrancar el proyecto:
+2. El botón de flecha que está sobre el footer debe enlazar al inicio de la página.
 
-Una vez hemos instalado las dependencias, vamos a arrancar el proyecto. **El proyecto hay que arrancarlo cada vez que te pongas a programar.** Para ello ejecuta el comando:
+3. Todos los links del pie deben ir a https://adalab.es.
 
-```bash
-npm start
-```
+4. Como BONUS, investigar: En el :hover de los botones ("Comprar" y "Empezar ahora") se debe incluir una
+   propiedad transform que dejamos a vuestra elección (y, como idea, hacer la transform junto con
+   transition, para investigar la propiedad transition).
 
-Este comando:
+## ESTRUCTURA DEL PROYECTO
 
-- **Abre una ventana de Chrome y muestra tu página web**, al igual que hace el plugin de VS Code Live Server (Go live).
-- También **observa** todos los ficheros que hay dentro de la carpeta `src/`, para que cada vez que modifiques un fichero **refresca tu página en Chrome**.
-- También **procesa los ficheros** HTML, SASS / CSS y JS y los **genera y guarda en la carpeta `public/`**. Por ejemplo:
-   - Convierte los ficheros SASS en CSS.
-   - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
+1. Un header, con position: fixed maquetado con Flexbox. Al hacer scroll siempre se queda fijo el botón del menú en la esquina superior izquierda.
 
-Después de ejecutar `npm start` ya puedes empezar a editar todos los ficheros que están dentro de la carpeta `src/` y programar cómodamente.
+2. Un body, en el que hay diferenciadas tres secciones:
 
-### Pasos para publicar el proyecto en GitHub Pages:
+- Una image hero maquetada con Flexbox, con un botón que al clickar nos lleva a la tercera sección.
+- Una sección "conect-yourself" ,maquetada con Flexbox con un botón de "Comprar" que nos redirige a la página de Adalab.
+- Una tercera sección, "new-year", maquetada con Grid con otro botón que enlaza a la web de Adalab. Todos los elementos se muestran en una sola columna en la versión mobile, y en las versiones de tablet y desktop los tres articles se muestran en una sola fila.
+- He utilizado la pseudoclase hover en los botones "Comprar" y "Empezar ahora" de las secciones segunda y tercera poniendo la propiedades transform: scale y transform: rotate para, y una transition: transform en sus respectivas clases para indicar la duración de las transiciones.
 
-Para generar tu página para producción ejecuta el comando:
+3. Un footer maquetado con Flexbox con un botón en la parte superior, colocado con la propiedad translate y que redirige a la parte superior de la página. Cada elemento de los dos nav nos enlaza a la web de Adalab. En la versión móvil están los tres bloques del footer en columna, y en las versiones de tablet y desktop se distribuyen en tres columnas, en las que he usado la propiedad order para cambiar cada bloque de elementos de lugar según la maqueta dada.
 
-```bash
-npm run docs
-```
+## HERRAMIENTAS UTILIZADAS
 
-Y a continuación:
-
-1. Sube a tu repo la carpeta `docs/` que se te acaba de generar.
-1. Entra en la pestaña `settings` de tu repo.
-1. Y en el apartado de GitHub Pages activa la opción **master branch /docs folder**.
-1. Y ya estaría!!!
-
-Además, los comandos:
-
-```bash
-npm run push-docs
-```
-o
-
-```bash
-npm run deploy
-```
-
-son un atajo que nos genera la versión de producción y hace push de la carpeta `docs/` del tirón. Te recomendamos ver el fichero `package.json` para aprender cómo funciona.
-
-## Flujo de archivos con Gulp
-
-Estas tareas de Gulp producen el siguiente flujo de archivos:
-
-![Gulp flow](./gulp-flow.png)
-
-## `gulpfile.js` y `config.json`
-
-Nuestro **gulpfile.js** usa el fichero `config.json` de configuración con las rutas de los archivos a generar / observar.
-
-De esta manera separarmos las acciones que están en `gulpfile.js` de la configuración de las acciones que están en `config.json`.
-
-## Estructura de carpetas
-
-La estructura de carpetas tiene esta pinta:
-
-```
-src
- ├─ api // los ficheros de esta carpeta se copian en public/api/
- |  └─ data.json
- ├─ images
- |  └─ logo.jpg
- ├─ js // los ficheros de esta carpeta se concatenan en el fichero main.js y este se guarda en public/main.js
- |  ├─ main.js
- |  └─ events.js
- ├─ scss
- |  ├─ components
- |  ├─ core
- |  ├─ layout
- |  └─ pages
- └─ html
-    └─ partials
-```
-
-> **NOTA:** Los partials de HTML y SASS del proyecto son orientativos. Te recomendamos usar los que quieras, y borrar los que no uses.
-
-## Vídeotutoriales del Starter kit
-
-- [Qué es, trabajar con la versión de desarrollo y rutas relativas](https://www.youtube.com/watch?v=XwvhXvBijos)
-- [Migración de un proyecto, trabajar con la versión de producción y GitHub Pages](https://www.youtube.com/watch?v=qqGClcgt9Uc)
-- [Motor de plantillas](https://www.youtube.com/watch?v=4GwXOJ045Zg)
-
-## Falta algo?
-
-Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de las issues o si te animas a mejorarlo mándanos un PR :)
+- HTML5
+- CSS3, SCSS
+- NodeJS
+- Gulp
+- Git

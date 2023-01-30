@@ -58,6 +58,11 @@
         height: 45px;
         border: solid 2px $color-one;
         border-radius: 22.5px;
+        transition: transform 3s;
+
+            &:hover {
+                transform: scale(2);
+            }
 
         .buy {
             font-family: $font-main;
@@ -107,6 +112,7 @@
             width: 450px;
             font-size: 28px;
             padding-top: 30px;
+            padding-bottom: 10px;
         }
 
         @media all and (min-width: 1200px) {
@@ -130,6 +136,7 @@
             grid-row-end: 3;
             grid-column-start: 1;
             grid-column-end: 2;
+            
         }
 
         @media all and (min-width: 1200px) {
@@ -150,6 +157,7 @@
 
             @media all and (min-width: 768px) {
                 font-size: 24px;
+                padding-bottom: 10px;
             }
         }
 
@@ -200,6 +208,7 @@
 
             @media all and (min-width: 768px) {
                 font-size: 24px;
+                padding-bottom: 10px;
             }
         }
 
@@ -251,6 +260,7 @@
 
             @media all and (min-width: 768px) {
                 font-size: 24px;
+                padding-bottom: 10px;
             }
         }
 
@@ -273,6 +283,11 @@
         grid-row-end: 6;
         grid-column-start: 1;
         grid-column-end: 4;
+        transition: transform 0.8s;
+
+            &:hover {
+                transform: rotate(360deg);
+            }
 
         @media all and (min-width: 768px) {
             grid-row-start: 3;

@@ -29,8 +29,10 @@
         align-items: center;
         border-radius: 50%;
         translate: 0 -25px;
+        animation-duration: 3s;
+        animation-name: slidein;
     }
-
+        
     .nav {
         display: flex;
         justify-content: center;
