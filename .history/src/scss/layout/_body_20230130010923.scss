@@ -1,7 +1,7 @@
 .body {
     margin: 0;
 }
-/*SECOND SECTION: "CONECT YOURSELF*/
+
 .conect-yourself {
     display: flex;
     flex-direction: column;
@@ -22,6 +22,7 @@
 
         @media all and (min-width: 768px) {
             font-size: 16px;
+            
         }
 
         @media all and (min-width: 1200px) {
@@ -81,7 +82,6 @@
     }
 }
 
-/*THIRD SECTION: "NEW YEAR"*/
 .new-year {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -113,6 +113,8 @@
         line-height: 30px;
         text-align: center;
         margin-top: 50px;
+        
+    
 
        @media all and (min-width: 768px) {
             width: 450px;
@@ -142,16 +144,16 @@
             grid-column-start: 1;
             grid-column-end: 2;
         }
-
+    
         @media all and (min-width: 1200px) {
             grid-row-start: 2;
             grid-row-end: 3;
             grid-column-start: 1;
             grid-column-end: 2;
             width: 350px;
-            padding-left: 70px;
-        }
 
+        }
+        
         .article1-title {
             font-family: $font-title;
             font-weight: bold;
@@ -165,6 +167,7 @@
 
             @media all and (min-width: 1200px) {
                 font-size: 24px;
+            
             }
         }
 
@@ -181,6 +184,7 @@
 
             @media all and (min-width: 1200px) {
                 font-size: 20px;
+                
             }
         }
     }
@@ -195,21 +199,16 @@
         justify-items: center;
         line-height: 30px;
 
-        @media all and (min-width: 768px) {
-            grid-row-start: 2;
-            grid-row-end: 3;
-            grid-column-start: 2;
-            grid-column-end: 3;
-        }
-
+        
+        
         @media all and (min-width: 1200px) {
             grid-row-start: 2;
             grid-row-end: 3;
             grid-column-start: 2;
             grid-column-end: 3;
-            width: 325px;
-        }
-
+            width: 350px;
+            }
+        
         .article2-title {
             font-family: $font-title;
             font-weight: bold;
@@ -223,6 +222,7 @@
 
             @media all and (min-width: 1200px) {
                 font-size: 24px;
+                
             }
         }
 
@@ -239,6 +239,7 @@
 
             @media all and (min-width: 1200px) {
                 font-size: 20px;
+                
             }
         }
     }
@@ -258,17 +259,17 @@
             grid-row-end: 3;
             grid-column-start: 3;
             grid-column-end: 4;
-        }
+            }
 
-        @media all and (min-width: 1200px) {
-            grid-row-start: 2;
-            grid-row-end: 3;
-            grid-column-start: 3;
-            grid-column-end: 4;
-            width: 350px;
-            padding-right: 70px;
-        }
-
+            @media all and (min-width: 1200px) {
+                grid-row-start: 2;
+                grid-row-end: 3;
+                grid-column-start: 3;
+                grid-column-end: 4;
+                width: 350px;
+                padding-right: 50pxpx;
+                }
+        
         .article3-title {
             font-family: $font-title;
             font-weight: bold;
@@ -282,6 +283,7 @@
 
             @media all and (min-width: 1200px) {
                 font-size: 24px;
+                
             }
         }
 
@@ -298,6 +300,7 @@
 
             @media all and (min-width: 1200px) {
                 font-size: 20px;
+                
             }
         }
     }
@@ -319,7 +322,7 @@
             grid-row-end: 4;
             grid-column-start: 1;
             grid-column-end: 4;
-        }
+            }
 
         .start-now {
             display: flex;
@@ -335,5 +338,8 @@
             font-size: 20px;
             font-weight: 500;
         }
+
     }
+    
+
 }
