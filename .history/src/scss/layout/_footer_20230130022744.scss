@@ -18,6 +18,11 @@
             flex-direction: row;
             justify-content: space-evenly;
             align-items: flex-start;
+            
+        }
+    
+        @media all and (min-width: 1200px) {
+            
         }
     }
     .container-arrow2 {
@@ -37,6 +42,16 @@
         align-items: center;
         align-content: center;
 
+        /*@media all and (min-width: 768px) {
+           
+        }*/
+    
+        @media all and (min-width: 1200px) {
+            
+        }
+
+        
+
         .ul {
             list-style-type: none;
             font-family: $font-main;
@@ -48,6 +63,10 @@
             @media all and (min-width: 768px) {
                 text-align: left;
             }
+        
+            /*@media all and (min-width: 1200px) {
+                
+            }*/
 
             .link {
                 text-decoration: none;
@@ -59,17 +78,17 @@
     .nav1 {
         @media all and (min-width:768px) {
             order: 2;
+
         }
+        
     }
 
     .nav2 {
         @media all and (min-width:768px) {
             order: 3;
-        }
 
-        @media all and (min-width:1200px) {
-            padding-right: 250px;
         }
+        
     }
 
     .container-copy {
@@ -82,11 +101,12 @@
         color: $color-two;
 
         @media all and (min-width: 768px) {
-            align-items: flex-start;
+            /*align-items: flex-start;*/
+        
         }
-
+    
         @media all and (min-width: 1200px) {
-           padding-left: 250px;
+           
         }
 
         .copy {

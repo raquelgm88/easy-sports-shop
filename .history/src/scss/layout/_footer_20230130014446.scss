@@ -10,14 +10,20 @@
         height: 240px;
     }
 
+    @media all and (min-width: 1200px) {
+        height: 240px;
+    }
+
     .menu-footer {
 
         @media all and (min-width: 768px) {
-            width: 100%;
             display: flex;
             flex-direction: row;
-            justify-content: space-evenly;
-            align-items: flex-start;
+        }
+    
+        @media all and (min-width: 1200px) {
+            display: flex;
+            flex-direction: row;
         }
     }
     .container-arrow2 {
@@ -29,6 +35,14 @@
         align-items: center;
         border-radius: 50%;
         translate: 0 -25px;
+
+        @media all and (min-width: 768px) {
+            
+        }
+    
+        @media all and (min-width: 1200px) {
+            
+        }
     }
 
     .nav {
@@ -45,30 +59,10 @@
             text-align: center;
             padding-inline-start: 0px;
 
-            @media all and (min-width: 768px) {
-                text-align: left;
-            }
-
             .link {
                 text-decoration: none;
                 color: $color-two;
             }
-        }
-    }
-
-    .nav1 {
-        @media all and (min-width:768px) {
-            order: 2;
-        }
-    }
-
-    .nav2 {
-        @media all and (min-width:768px) {
-            order: 3;
-        }
-
-        @media all and (min-width:1200px) {
-            padding-right: 250px;
         }
     }
 
@@ -80,14 +74,6 @@
         font-family: $font-main;
         font-size: 14px;
         color: $color-two;
-
-        @media all and (min-width: 768px) {
-            align-items: flex-start;
-        }
-
-        @media all and (min-width: 1200px) {
-           padding-left: 250px;
-        }
 
         .copy {
             margin-bottom: auto;

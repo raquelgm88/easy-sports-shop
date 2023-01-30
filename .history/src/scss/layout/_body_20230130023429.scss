@@ -151,6 +151,10 @@
             @media all and (min-width: 768px) {
                 font-size: 24px;
             }
+
+            @media all and (min-width: 1200px) {
+                font-size: 24px;
+            }
         }
 
         .article1-text {
@@ -161,6 +165,10 @@
             margin-top: 0px;
 
             @media all and (min-width: 768px) {
+                font-size: 20px;
+            }
+
+            @media all and (min-width: 1200px) {
                 font-size: 20px;
             }
         }
@@ -201,6 +209,10 @@
             @media all and (min-width: 768px) {
                 font-size: 24px;
             }
+
+            @media all and (min-width: 1200px) {
+                font-size: 24px;
+            }
         }
 
         .article2-text {
@@ -211,6 +223,10 @@
             margin-top: 0px;
 
             @media all and (min-width: 768px) {
+                font-size: 20px;
+            }
+
+            @media all and (min-width: 1200px) {
                 font-size: 20px;
             }
         }
@@ -252,6 +268,10 @@
             @media all and (min-width: 768px) {
                 font-size: 24px;
             }
+
+            @media all and (min-width: 1200px) {
+                font-size: 24px;
+            }
         }
 
         .article3-text {
@@ -264,6 +284,10 @@
             @media all and (min-width: 768px) {
                 font-size: 20px;
             }
+
+            @media all and (min-width: 1200px) {
+                font-size: 20px;
+            }
         }
     }
 
@@ -273,6 +297,11 @@
         grid-row-end: 6;
         grid-column-start: 1;
         grid-column-end: 4;
+        /*display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;*/
+        /*width: 100%;*/
 
         @media all and (min-width: 768px) {
             grid-row-start: 3;

@@ -59,17 +59,21 @@
     .nav1 {
         @media all and (min-width:768px) {
             order: 2;
+
         }
+        
     }
 
     .nav2 {
         @media all and (min-width:768px) {
             order: 3;
+
         }
 
         @media all and (min-width:1200px) {
             padding-right: 250px;
         }
+        
     }
 
     .container-copy {
@@ -83,8 +87,9 @@
 
         @media all and (min-width: 768px) {
             align-items: flex-start;
+        
         }
-
+    
         @media all and (min-width: 1200px) {
            padding-left: 250px;
         }

@@ -273,6 +273,11 @@
         grid-row-end: 6;
         grid-column-start: 1;
         grid-column-end: 4;
+        /*display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;*/
+        /*width: 100%;*/
 
         @media all and (min-width: 768px) {
             grid-row-start: 3;
