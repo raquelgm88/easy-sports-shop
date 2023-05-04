@@ -1,8 +1,10 @@
-# EVALUACIÓN FINAL DEL MÓDULO 1 - PROMO SALAS
+![Proyecto Tienda de porductos deportivos](https://raw.githubusercontent.com/raquelgm88/easy-sports-shop/main/src/images/readme.png)
 
-Este proyecto es el resultado de todo lo aprendido en el módulo 1 del Bootcamp de Programación Web de Adalab. Un ejercicio propuesto para la evaluación de esta primera parte.
+# Tienda online de productos deportivos
 
-## REQUISITOS
+¡Hola! Este proyecto es el resultado de la evaluación final del módulo 1 del **Bootcamp de Programación Web de Adalab**, de la promoción **Salas**. Desarrollado con HTML5 y CSS3 (SASS).
+
+## Requisitos
 
 Para desarrollar este proyecto había que cumplir con una serie de criterios:
 
@@ -28,7 +30,7 @@ Además, había que resolver varias interacciones. A parte de las propuestas, yo
    propiedad transform que dejamos a vuestra elección (y, como idea, hacer la transform junto con
    transition, para investigar la propiedad transition).
 
-## ESTRUCTURA DEL PROYECTO
+## Estructura del proyecto
 
 1. Un header, con position: fixed maquetado con Flexbox. Al hacer scroll siempre se queda fijo el botón del menú en la esquina superior izquierda.
 
@@ -41,10 +43,29 @@ Además, había que resolver varias interacciones. A parte de las propuestas, yo
 
 3. Un footer maquetado con Flexbox con un botón en la parte superior, colocado con la propiedad translate y que redirige a la parte superior de la página. Cada elemento de los dos nav nos enlaza a la web de Adalab. En la versión móvil están los tres bloques del footer en columna, y en las versiones de tablet y desktop se distribuyen en tres columnas, en las que he usado la propiedad order para cambiar cada bloque de elementos de lugar según la maqueta dada.
 
-## HERRAMIENTAS UTILIZADAS
+## Herramientas utilizadas
 
 - HTML5
 - CSS3, SCSS
+- NPM
 - NodeJS
 - Gulp
 - Git
+
+## Cómo arrancar el proyecto
+
+Necesitas tener instalado [Node JS](https://nodejs.org/en) para poder arrancar este proyecto.
+
+1. Instala las dependecias locales ejecutando en la terminal el comando:
+
+```
+npm install
+```
+
+2. Arranca el proyecto ejecutando a continuación en la terminal:
+
+```
+npm start
+```
+
+Se abrirá [http://localhost:3000 ](http://localhost:3000)para ver el proyecto en el navegador en modo desarrollo.
