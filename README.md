@@ -62,7 +62,13 @@ Necesitas tener instalado [Node JS](https://nodejs.org/en) para poder arrancar e
 npm install
 ```
 
-2. Arranca el proyecto ejecutando a continuación en la terminal:
+2. Instala el paquete para SASS:
+
+```
+npm install node-sass
+```
+
+3. Arranca el proyecto ejecutando a continuación en la terminal:
 
 ```
 npm start
